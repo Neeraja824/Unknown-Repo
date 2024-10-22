@@ -1,0 +1,6 @@
+n=int(input())
+lst=list(map(int,input().split()))
+even_sum=0
+for i in range(0,n,2):
+    even_sum+=lst[i]
+print(even_sum)
