@@ -1,0 +1,6 @@
+n=int(input())
+lst=list(map(int,input().split()))
+odd_sum=0
+for i in range(1,n,2):
+    odd_sum+=lst[i]
+print(odd_sum)
